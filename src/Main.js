@@ -15,7 +15,8 @@ function loadFeed(path) {
 			feed.appendChild(post);
 			
 			post.innerHTML = "<h1>" + posts[i].querySelector("title").innerHTML + "</h1>" +
-				"<p>" + posts[i].querySelector("description").innerHTML + "</p>";
+				"<p>" + posts[i].querySelector("description").innerHTML + "</p>" +
+				"<i>" + posts[i].querySelector("date").innerHTML + "<i>";
 		}
 	};
 	 
