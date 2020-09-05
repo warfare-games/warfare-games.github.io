@@ -1,0 +1,51 @@
+*
+{
+	margin: 0;
+	outline: none;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+article
+{
+	background: #806B2A;
+	margin: 8px 0;
+}
+
+article:first-child
+{
+	margin-top: 0;
+}
+
+article:last-child
+{
+	margin-bottom: 0;
+}
+
+body
+{
+	overflow: hidden;
+}
+
+header
+{
+	background: #424242;
+	color: White;
+	padding: 8px;
+}
+
+footer
+{
+	background: #303030;
+	color: White;
+	height: 9vh;
+	padding: 4px;
+}
+
+section
+{
+	background: #212121;
+	height: 82vh;
+	overflow: scroll;
+	padding: 8px;
+}
